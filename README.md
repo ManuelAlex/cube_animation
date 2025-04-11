@@ -29,7 +29,7 @@ Create a red square that:
 
 ## Screenshot
 
-(assets/cube_animation.png)
+[assets/cube_animation.png]
 
 ## Try It Out
 
