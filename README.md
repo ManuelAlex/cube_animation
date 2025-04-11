@@ -1,16 +1,43 @@
-# cube_animation
+# Cube Animation flutter Test Challenge
 
-A new Flutter project.
+An animated Flutter widget that smoothly moves a red square across the screen when the **"To Left"** and **"To Right"** buttons are pressed.
 
-## Getting Started
+ **DartPad Template:**  
+[Try it here](https://dartpad.dev/?id=a45f6a2eddcdaeb41bbfcea0e9352354)
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## Task
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Create a red square that:
+- Starts at the **center** of the screen.
+- Moves **left** or **right** when the corresponding buttons are pressed.
+- **Animates** the movement over 1 second.
+- Disables buttons appropriately based on the current state.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## Requirements
+
+1. The square **starts in the center** of the screen.
+2. Pressing **"To Right"** moves the square to the **right edge**.
+3. Pressing **"To Left"** moves the square to the **left edge**.
+4. **Disable** the "To Right" button when the square is already at the right edge.
+5. **Disable** the "To Left" button when the square is already at the left edge.
+6. The movement should be **animated** with a **1-second duration**.
+7. **Both buttons** should be disabled **during animation** to prevent overlapping transitions.
+
+---
+
+## Screenshot
+
+![Dock Screenshot on hover](assets/cube_animation.png)
+
+## Try It Out
+
+- **Live Demo**: [https://manuelalex.github.io/cube_animation_web/](https://manuelalex.github.io/cube_animation_web/)
+
+- **Test on DartPad**: Copy-paste `main.dart` into [https://dartpad.dev/](https://dartpad.dev/) to run it instantly.
+
+---
+

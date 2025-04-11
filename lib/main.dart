@@ -66,7 +66,7 @@ class SquareAnimationState extends State<SquareAnimation>
     _animationController.forward();
   }
 
-  void moveRight() {
+  void _moveRight() {
     if (currentDirection == Direction.right) {
       return;
     }
@@ -85,7 +85,7 @@ class SquareAnimationState extends State<SquareAnimation>
     currentDirection = Direction.right;
   }
 
-  void moveLeft() {
+  void _moveLeft() {
     if (currentDirection == Direction.left) {
       return;
     }
@@ -140,7 +140,7 @@ class SquareAnimationState extends State<SquareAnimation>
                   _animationController.isAnimating ||
                           currentDirection == Direction.left
                       ? null
-                      : moveLeft,
+                      : _moveLeft,
               child: const Text('Left'),
             ),
             const SizedBox(width: 8),
@@ -149,7 +149,7 @@ class SquareAnimationState extends State<SquareAnimation>
                   _animationController.isAnimating ||
                           currentDirection == Direction.right
                       ? null
-                      : moveRight,
+                      : _moveRight,
               child: const Text('Right'),
             ),
           ],
