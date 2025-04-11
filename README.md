@@ -2,9 +2,6 @@
 
 An animated Flutter widget that smoothly moves a red square across the screen when the **"To Left"** and **"To Right"** buttons are pressed.
 
- **DartPad Template:**  
-[Try it here](https://dartpad.dev/?id=a45f6a2eddcdaeb41bbfcea0e9352354)
-
 ---
 
 ## Task
