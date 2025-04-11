@@ -1,6 +1,6 @@
 # Cube Animation flutter Test Challenge
 
-An animated Flutter widget that smoothly moves a red square across the screen when the **"To Left"** and **"To Right"** buttons are pressed.
+An animated Flutter widget that smoothly moves a red square across the screen when the **"Left"** and **"Right"** buttons are pressed.
 
 ---
 
@@ -18,8 +18,8 @@ Create a red square that:
 ## Requirements
 
 1. The square **starts in the center** of the screen.
-2. Pressing **"To Right"** moves the square to the **right edge**.
-3. Pressing **"To Left"** moves the square to the **left edge**.
+2. Pressing **"Right"** moves the square to the **right edge**.
+3. Pressing **"Left"** moves the square to the **left edge**.
 4. **Disable** the "To Right" button when the square is already at the right edge.
 5. **Disable** the "To Left" button when the square is already at the left edge.
 6. The movement should be **animated** with a **1-second duration**.
