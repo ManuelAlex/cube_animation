@@ -8,6 +8,7 @@ An animated Flutter widget that smoothly moves a red square across the screen wh
 
 Create a red square that:
 - Starts at the **center** of the screen.
+
 - Moves **left** or **right** when the corresponding buttons are pressed.
 - **Animates** the movement over 1 second.
 - Disables buttons appropriately based on the current state.
@@ -28,7 +29,7 @@ Create a red square that:
 
 ## Screenshot
 
-![Dock Screenshot on hover](assets/cube_animation.png)
+(assets/cube_animation.png)
 
 ## Try It Out
 
